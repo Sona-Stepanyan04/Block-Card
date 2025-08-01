@@ -1,0 +1,50 @@
+:root{
+    font-size: 16px;
+}
+*{
+         margin: 0;
+     padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 21rem;
+    height: fit-content;
+    padding: 1rem 1rem 1.25rem 1rem;
+    margin-top: 10.25rem;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+
+    img{
+        height: 9.2rem;
+        width: 21rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .tag-design{
+        color: #6325A2;
+        padding: 0.375rem 1rem;
+        background-color: rgb(248, 245, 254);
+        border-radius: 2rem;
+        width: fit-content;
+        margin-bottom: 1rem;
+    }
+
+    h1{
+        margin-bottom: 0.375rem;
+    }
+
+    hr{
+        color: rgba(0, 0, 0, 50%);
+        margin: 1.25rem 0;
+    }
+
+    .name{
+        margin-bottom: 1.25rem;
+    }
+}
